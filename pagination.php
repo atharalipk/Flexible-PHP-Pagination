@@ -4,7 +4,7 @@
  */
 class Pagination
 {
-	public $max, $total, $value, $start = 0;
+	public $max, $total, $value, $max_items, $page, $start = 0;
 	public $url, $theme = '../themes/default';
 	public $i = 0;
 	
